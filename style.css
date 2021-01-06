@@ -24,10 +24,8 @@ body {
     transition: 0.7s;
 }
 
-.menu a:hover {
-    border: 1px solid #4fc0c0;
-    border-radius: 10px;
-}
+
+/*--Proflie---*/
 
 .profile {}
 
@@ -39,6 +37,7 @@ body {
 
 .profile-bio h1 {
     font-size: 40px;
+    color: #05125a;
 }
 
 .profile-bio .h1 {
@@ -46,12 +45,16 @@ body {
 }
 
 .color-higligth {
-    color: #1f7e7e;
+    color: #2a41c4;
+}
+
+.color-higligth-2 {
+    color: #05125a;
 }
 
 .profile-bio .btn {
     width: 180px;
-    background-color: #1f7e7e;
+    background-color: #2a41c4;
     font-size: 22px;
     color: white;
     height: 45px;
@@ -125,7 +128,7 @@ body {
 
 .about .btn {
     width: 250px;
-    background-color: #1f7e7e;
+    background-color: #2a41c4;
     font-size: 22px;
     color: white;
     height: 45px;
@@ -142,7 +145,7 @@ body {
 
 .about-skill-html div {
     width: 60%;
-    background-color: #1f7e7e;
+    background-color: #2a41c4;
     border-radius: 20px;
     text-align: center;
     color: white;
@@ -157,7 +160,7 @@ body {
 
 .about-skill-css div {
     width: 50%;
-    background-color: #1f7e7e;
+    background-color: #2a41c4;
     border-radius: 20px;
     text-align: center;
     color: white;
@@ -172,7 +175,7 @@ body {
 
 .about-skill-github div {
     width: 40%;
-    background-color: #1f7e7e;
+    background-color: #2a41c4;
     border-radius: 20px;
     text-align: center;
     color: white;
@@ -183,7 +186,6 @@ body {
 
 .experience {
     box-sizing: border-box;
-    margin-top: 50px;
     margin-top: 400px;
 }
 
@@ -197,18 +199,10 @@ body {
     width: 25%;
     margin: 1%;
     padding: 2%;
-    box-shadow: 5px 5px 30px lightgray;
+    box-shadow: 5px 5px 30px grey;
     border-radius: 10px;
     float: left;
-}
-
-.card-3 {
-    width: 25%;
-    margin: 1%;
-    padding: 2%;
-    box-shadow: 5px 5px 30px lightgray;
-    border-radius: 10px;
-    float: right;
+    display: inline-block;
 }
 
 .card-3 img {
@@ -223,26 +217,63 @@ body {
     height: 250px;
 }
 
-.footer-banner {
-    margin: 200px 10px 100px 10px;
-    height: 500px;
-    box-sizing: border-box;
+
+/*-----Contact secton---*/
+
+.contact {
+    height: 600px;
+    margin-top: 850px;
 }
 
-.footer {
-    height: 500px;
-    margin-top: 400px;
-}
-
-.footer-bg {
-    background-image: url("img/Group_33094_1.png");
+.contact .contact-bg {
+    width: 50%;
+    height: 100px;
+    padding: 50px;
+    margin: 10px auto;
+    border-radius: 25px;
+    background-image: url(img/Group_33094_1.png);
     background-repeat: no-repeat;
-    margin: 50% 20% 10%;
-    height: 250px;
-    border-radius: 35px;
+    background-size: cover;
 }
 
-..footer-bg .left {
-    margin: 20px 12px 5px;
-    text-align: left
+.contact-bg .left {
+    float: left;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    margin-top: -25px;
+}
+
+.contact-bg .right {
+    float: right;
+}
+
+.contact-bg .right button {
+    width: 160px;
+    height: 55px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.contact-socile {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-socile h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.contact-socile h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.icon-img span img {
+    margin-right: 10px;
+    width: 60px;
 }
